@@ -1,0 +1,227 @@
+
+<!doctype html>
+<html class="no-js" lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Plantilla Foundation básica</title>
+    <link rel="stylesheet" href="css/foundation.css" />
+    <link rel="stylesheet" type="text/css" href="css/estilos.css">
+    <link rel="stylesheet" type="text/css" href="css/custom_mediaqueries.css">
+    <link rel="stylesheet" href="img/foundation-icons/foundation-icons.css" /> 
+  </head>
+
+  <body>
+
+  <div class="row">
+        <div class="large-12 columns">
+          <h1><img src="img/logo_header.png" class="logotipo"></h1>
+        </div>
+  </div>
+
+
+<div class="row">
+  <div class="large-12 columns">
+    <div class="contain-to-grid">
+
+    <!--  Nav  -->
+      <nav class="top-bar" data-topbar>
+        <ul class="title-area">
+          <li class="name">
+          </li>
+          <li class="toggle-topbar menu-icon"><a href="#"><span>Menú</span></a></li>
+        </ul>
+        <section class="top-bar-section">
+          <ul class="left">
+            <li class="has-dropdown">
+              <a href="#"><i class="step fi-layout size-12"></i> Opción 01</a>
+              <ul class="dropdown">
+                <li><a href="#">Submenú a</a></li>
+                <li><a href="#">Submenú b</a></li>
+                <li><a href="#">Submenú c</a></li>
+                <li><a href="#">Submenú d</a></li>
+                <li><a href="#">Submenú e</a></li>
+              </ul>
+            </li>
+
+            <li class="active"><a href="#">Opción 02</a></li>
+            <li class><a href="#">Opción 03</a></li>
+            <li class><a href="#">Opción 04</a></li>
+
+            <li class="has-dropdown">
+              <a href="#"><i class="step fi-layout size-12"></i> Opción 05</a>
+              <ul class="dropdown">
+                <li><a href="#">Submenú a</a></li>
+                <li><a href="#">Submenú b</a></li>
+                <li><a href="#">Submenú c</a></li>
+                <li><a href="#">Submenú d</a></li>
+                <li><a href="#">Submenú e</a></li>
+              </ul>
+            </li>
+            
+          </ul>
+          
+          <ul class="right">
+              <li><a href="#">Desconectar &nbsp;<i class="step fi-power size-12"></i></a></li>
+          </ul>
+        </section>
+        <!-- fin Nav -->
+      </nav>
+    </div>
+  </div>
+</div>
+  
+
+    <section class="main-section">
+
+      <hr/>
+       
+
+       <!-- |—O—| Contenido |—O—| -->
+
+      <div class="row">
+        <div class="large-12 columns">
+
+          <h2 class="titulo_centrado">Título de la sección</h2>
+
+          
+            <form>
+            <div class="row">
+              <div class="large-12 columns">
+                <label>Introducir texto
+                  <input type="text" placeholder="Introduce aquí texto" />
+                </label>
+              </div>
+            </div>
+            <div class="row">
+              <div class="large-6 columns">
+                <label>Introducir texto
+                  <input type="text" placeholder="Introduce aquí texto" />
+                </label>
+              </div>
+              <div class="large-6 columns">
+                <label>Introducir texto
+                  <input type="text" placeholder="Introduce aquí texto" />
+                </label>
+              </div>
+              
+            </div>
+            <div class="row">
+              <div class="large-12 columns">
+                <label>Combo Box
+                  <select>
+                    <option value="valor1">valor1</option>
+                    <option value="valor2">valor2</option>
+                    <option value="valor3">valor3</option>
+                    <option value="valor4">valor4</option>
+                  </select>
+                </label>
+              </div>
+            </div>
+            <div class="row">
+              <div class="large-6 columns">
+                <label>Radio buttons</label>
+                <input type="radio" name="radio1" value="Radio1" id="radio1"><label for="radio1">Radio button 1</label>
+                <input type="radio" name="radio2" value="Radio2" id="radio2"><label for="radio2">Radio button 2</label>
+                <input type="radio" name="radio3" value="Radio3" id="radio3"><label for="radio3">Radio button 3</label>
+              </div>
+              <div class="large-6 columns">
+                <label>Check boxes</label>
+                <input id="checkbox1" type="checkbox"><label for="checkbox1">Checkbox 1</label>
+                <input id="checkbox2" type="checkbox"><label for="checkbox2">Checkbox 2</label>
+                <input id="checkbox3" type="checkbox"><label for="checkbox3">Checkbox 3</label>
+
+              </div>
+            </div>
+            <div class="row">
+              <div class="large-12 columns">
+                <label>Textarea
+                  <textarea placeholder="Introduce aquí texto largo"></textarea>
+                </label>
+              </div>
+            </div>
+          </form>
+
+
+          <div class="row">
+            <div class="small-12 columns columnas">
+
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus exercitationem laudantium beatae vero vitae incidunt rem cumque obcaecati, voluptate nisi accusantium similique quas saepe repellat dicta est odio. Voluptatibus, pariatur.</p> <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus exercitationem laudantium beatae vero vitae incidunt rem cumque obcaecati, voluptate nisi accusantium similique quas saepe repellat dicta est odio. Voluptatibus, pariatur.</p>
+            </div>
+          </div>
+
+            <div class="row">
+              <div class="small-12 columns">
+                <ul class="accordion" data-accordion>
+                    <li class="accordion-navigation">
+                      <a href="#panel1a">Acordeón 1</a>
+                      <div id="panel1a" class="content active">
+                        Acordeón 1. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                      </div>
+                    </li>
+                    <li class="accordion-navigation">
+                      <a href="#panel2a">Acordeón 2</a>
+                      <div id="panel2a" class="content">
+                        Acordeón 2. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                      </div>
+                    </li>
+                    <li class="accordion-navigation">
+                      <a href="#panel3a">Acordeón 3</a>
+                      <div id="panel3a" class="content">
+                        Acordeón 3. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                      </div>
+                    </li>
+                </ul>
+              </div>
+            </div>       
+
+     
+        <br />
+        <br />
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus exercitationem laudantium beatae vero vitae incidunt rem cumque obcaecati, voluptate nisi accusantium similique quas saepe repellat dicta est odio. Voluptatibus, pariatur.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus exercitationem laudantium beatae vero vitae incidunt rem cumque obcaecati, voluptate nisi accusantium similique quas saepe repellat dicta est odio. Voluptatibus, pariatur.</p>
+
+      </div>
+
+      
+      <!-- |—O—| fin Contenido |—O—| -->
+
+    </section>
+
+
+  <a class="exit-off-canvas"></a>
+
+
+      <hr/>
+
+      <!-- |—O—| Footer |—O—| -->
+      <footer class="row piedepagina" id="footer">
+        <div class="large-12 columns">
+              <div>
+              <div class="logo_footer"><img src="img/logo_footer.png"></div>
+                <div class="pie_legal">Marca © - Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+                </div>
+              </div>
+              </div>
+          </div>
+        </div>
+      </footer>
+      <!-- |—O—| fin Footer |—O—| -->
+
+
+  </div>
+</div>
+
+    <!-- |—O—| JS |—O—| -->
+    <script src="js/vendor/modernizr.js"></script>
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/foundation.min.js"></script>
+
+    <script>
+      $(document).foundation();
+    </script>
+    <!-- |—O—| fin JS |—O—| -->
+
+  </body>
+</html>

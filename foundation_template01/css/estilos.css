@@ -1,0 +1,90 @@
+
+html, body, h1, h2, h3, h4, h5, h6, a, ul, li {
+	font-family: "Open Sans",sans-serif !important;
+}
+.logotipo {
+	margin:10px;
+}
+h2 {
+	font-size: 32px !important;
+}
+.desconectar a{
+	color: #ff6600 !important;
+}
+.pie_legal {
+	font-size: 0.8em;
+	color:#fff;
+	float: right;
+	padding:20px 0px;
+}
+.piedepagina {
+	background-color: #022F3D; 
+	min-width: 100%;
+	width: 100%;
+	}
+
+#footer {
+	width: 100%;
+	margin-top: 0;
+	margin-bottom: 0;
+	min-height: 60px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+p {
+	text-align: justify;
+}
+
+
+.newspaper {
+  column-count:2;
+  -moz-column-count:2;
+  -webkit-column-count:2;
+  text-align: justify;
+}
+
+
+.logo_footer {
+	float: left;
+}
+
+/* overwrite foundation styles */
+.titulo_seccion {
+	font-family: "Open Sans",sans-serif !important;
+	font-weight: normal !important;
+	font-size: 1.6em !important;
+}
+
+.tab-bar {
+    background: #003C4F none repeat scroll 0% 0%;
+    color: #FFF;
+    height: 2.8125rem;
+    line-height: 2.8125rem;
+    position: relative;
+}
+
+.left-off-canvas-menu, .left-submenu {
+	background: #003C4F none repeat scroll 0% 0%;
+}
+
+.left-submenu .back > a {
+	background: #003C4F none repeat scroll 0% 0%;	
+}
+.left-submenu .back > a:hover {
+	background: #000 none repeat scroll 0% 0%;
+	color:#fff !important;
+}
+
+ul.off-canvas-list li a:hover {
+	color:#fff !important;
+
+}
+
+
+.accordion {
+	margin:0 !important;
+}
+
